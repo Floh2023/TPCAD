@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Productos - Mi tienda</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+    <header class="header-mobile">
+        3 Cuotas sin Intereses - Envio Gratis
+    </header>
+    
+    <nav class="navProducto">
+        <div class="logo">
+            <img src="Logo.jpg" alt="Logo de la marca">
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="menu">
+            <li></li>
+            <li><a href="index.html">Tienda</a></li>
+            <li class="active"><a href="ProductoF.html">Productos</a></li>
+            <li><a href="NosotrosF.html">Nosotros</a></li>
+            <li><a href="InicioF.html">Inicio</a></li>
+        </ul>
+    </nav>
+
+    <div></div>
+
+    <div class="slider-container">
+        <ul class="slider">
+            <li class="slide">
+                <img src="Carrousel1.jpg" alt="Imagen 1">
+                <div class="slide-text">
+                    <h2>Compra On-Line</h2>
+                    <p>Recibí descuentos especiales.</p>
+                </div>
+            </li>
+            <li class="slide">
+                <img src="Carrousel2.jpg" alt="Imagen 2">
+                <div class="slide-text">
+                    <h2>Recibí en tu casa</h2>
+                    <p>Envios Express.</p>
+                </div>
+            </li>
+            <li class="slide">
+                <img src="Carrousel3.jpg" alt="Imagen 3">
+                <div class="slide-text">
+                    <h2>Consulta los mejores diseños</h2>
+                    <p>Aseoramiento en línea.</p>
+                </div>
+            </li>
+        </ul>
+        <button class="prev">Anterior</button>
+        <button class="next">Siguiente</button>
+    </div>
+
+    <div class="BarraSuperior2">
+        <div class="PrimeraFila">
+            <div class="redes">
+                <iconify-icon class="icono" icon="ri:facebook-fill" style="color: black;" width="22"></iconify-icon>
+                <iconify-icon class="icono" icon="uim:twitter" style="color: black;" width="22"></iconify-icon>
+                <iconify-icon class="icono" icon="bxl:instagram" style="color: black;" width="22"></iconify-icon>
+                <iconify-icon class="icono" icon="uit:youtube" style="color: black;" width="22"></iconify-icon>
+                <iconify-icon icon="uim:whatsapp" style="color: black;" width="22" class="icono"></iconify-icon>
+            </div>
+                           
+        </div>
+    </div>
+
+    <div><h2 class="tituloP">"Un zapato para cada momento"</h2></div>
+
+    <div class="gallery">
+        
+    </div>
+
+
+    <div>
+      <h2 class="formularioTitulo">Contacto</h2>
+      <form id="contact-form" method="post" action="">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Enviar</button>
+      </form>
+      <p></p>
+    </div>
+    <div class="container5">
+      <div>
+        <h2 class="tituloUbicación">Ubicación</h2>
+      </div>
+      <div>     
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22093.50681970841!2d-58.42450675084215!3d-34.59861221675713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8c854bd13f%3A0xfc0cf5c054da4aa1!2sAbasto%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1694132264322!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+    </div>
+
+    <footer class="footer">
+      <p></p>
+      <p> Correo: ds@gmail.com | Teléfono: 123456789 </p>
+      <p></p>
+      <p> Buenos Aires</p>
+      <p> Argentina</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
