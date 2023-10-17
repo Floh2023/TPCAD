@@ -880,6 +880,10 @@ form {
     .header-mobile{
         font-size: 30px;
     }
-    
+    .menu-toggle{
+        font-size: 70px;
+        justify-content: right;
+        margin-left: auto; /* Mueve el menú de hamburguesa a la derecha */
+    }
 }
 
