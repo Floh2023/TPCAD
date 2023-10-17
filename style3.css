@@ -885,5 +885,9 @@ form {
         justify-content: right;
         margin-left: auto; /* Mueve el menú de hamburguesa a la derecha */
     }
+
+    .menu.active{
+        margin: 70px;
+    }
 }
 
